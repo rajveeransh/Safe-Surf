@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Safe Surf</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Safe Surf</h1>
+    <p>Enter a website URL to verify if it's safe to visit.</p>
+    
+    <form id="urlForm">
+      <input type="url" id="urlInput" placeholder="Enter URL..." required>
+      <button type="submit">Check</button>
+    </form>
+
+    <div id="result" class="result-box"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
